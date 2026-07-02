@@ -1,0 +1,210 @@
+===================================
+LeetCode List of Coding Challenges:
+ --- Top Interview 150 ---
+===================================
+♦ doneWithRuby       ❌  didn't pass any, not finished, not understood     (e)easy
+• doneWithJS          /  passed >= half test cases || passedWithVideo      (m)medium
+◙ doneWithTS          ✔  done                                              (h)hard
+
+
+====================
+---Array / String---
+--------------------
+[ ] - (e)Merge Sorted Array     (use: 2 pointers+ 1 index)
+[ ] - (e)Remove Element
+[ ] - (e)Remove Duplicates from Sorted Array
+[ ] - (m)Remove Duplicates from Sorted Array II
+[ ] - (e)Majority Element
+[ ] - (m)Rotate Array
+[ ] - (e)Best Time to Buy and Sell Stock
+[ ] - (m)Best Time to Buy and Sell Stock II
+[ ] - (m)Jump Game
+[ ] - (m)Jump Game II
+[ ] - (m)H-Index
+[ ] - (m)Insert Delete GetRandom O(1)
+[ ] - (m)Product of Array Except Self
+[ ] - (m)Gas Station
+[ ] - (h)Candy
+[ ] - (h)Trapping Rain Water
+[ ] - (e)Roman to Integer
+[ ] - (m)Integer to Roman
+[ ] - (e)Length of Last Word
+[ ] - (e)Longest Common Prefix
+[ ] - (m)Reverse Words in a String
+[ ] - (m)Zigzag Conversion
+[ ] - (e)Find the Index of the First Occurrence in a String
+[ ] - (h)Text Justification
+
+==================
+---Two Pointers---
+------------------
+[ ] - ()Valid Palindrome
+[ ] - (e)Is Subsequence
+[ ] - (m)Two Sum II - Input Array Is Sorted
+[ ] - (m)Container With Most Water
+[ ] - (m)3Sum
+
+====================
+---Sliding Window---
+--------------------
+[ ] - (m)Minimum Size Subarray Sum
+[ ] - (m)Longest Substring Without Repeating Characters
+[ ] - (h)Substring with Concatenation of All Words
+[ ] - (h)Minimum Window Substring
+
+Matrix
+[ ] - (m)Valid Sudoku
+[ ] - (m)Spiral Matrix
+[ ] - (m)Rotate Image
+[ ] - (m)Set Matrix Zeroes
+[ ] - (m)Game of Life
+
+Hashmap
+[ ] - (e)Ransom Note
+[ ] - (e)Isomorphic Strings
+[ ] - (e)Word Pattern
+[ ] - (e)Valid Anagram
+[ ] - (m)Group Anagrams
+[ ] - (e)Two Sum
+[ ] - (e)Happy Number
+[ ] - (e)Contains Duplicate II
+[ ] - (m)Longest Consecutive Sequence
+
+Intervals
+[ ] - (e)Summary Ranges
+[ ] - (m)Merge Intervals
+[ ] - (m)Insert Interval
+[ ] - (m)Minimum Number of Arrows to Burst Balloons
+
+Stack
+[ ] - (e)Valid Parentheses
+[ ] - (m)Simplify Path
+[ ] - (m)Min Stack
+[ ] - (m)Evaluate Reverse Polish Notation
+[ ] - (h)Basic Calculator
+
+Linked List
+[ ] - (e)Linked List Cycle
+[ ] - (m)Add Two Numbers
+[ ] - (e)Merge Two Sorted Lists
+[ ] - (m)Copy List with Random Pointer
+[ ] - (m)Reverse Linked List II
+[ ] - (h)Reverse Nodes in k-Group
+[ ] - (m)Remove Nth Node From End of List
+[ ] - (m)Remove Duplicates from Sorted List II
+[ ] - (m)Rotate List
+[ ] - (m)Partition List
+[ ] - (m)LRU Cache
+
+Binary Tree General
+[ ] - (e)Maximum Depth of Binary Tree
+[ ] - (e)Same Tree
+[ ] - (e)Invert Binary Tree
+[ ] - (e)Symmetric Tree
+[ ] - (m)Construct Binary Tree from Preorder and Inorder Traversal
+[ ] - (m)Construct Binary Tree from Inorder and Postorder Traversal
+[ ] - (m)Populating Next Right Pointers in Each Node II
+[ ] - (m)Flatten Binary Tree to Linked List
+[ ] - (e)Path Sum
+[ ] - (m)Sum Root to Leaf Numbers
+[ ] - (h)Binary Tree Maximum Path Sum
+[ ] - (m)Binary Search Tree Iterator
+[ ] - (e)Count Complete Tree Nodes
+[ ] - (m)Lowest Common Ancestor of a Binary Tree
+
+Binary Tree BFS
+[ ] - (m)Binary Tree Right Side View
+[ ] - (e)Average of Levels in Binary Tree
+[ ] - (m)Binary Tree Level Order Traversal
+[ ] - (m)Binary Tree Zigzag Level Order Traversal
+
+Binary Search Tree
+[ ] - (e)Minimum Absolute Difference in BST
+[ ] - (m)Kth Smallest Element in a BST
+[ ] - (m)Validate Binary Search Tree
+
+Graph General
+[ ] - (m)Number of Islands
+[ ] - (m)Surrounded Regions
+[ ] - (m)Clone Graph
+[ ] - (m)Evaluate Division
+[ ] - (m)Course Schedule
+[ ] - (m)Course Schedule II
+
+Graph BFS
+[ ] - (m)Snakes and Ladders
+[ ] - (m)Minimum Genetic Mutation
+[ ] - (h)Word Ladder
+
+Trie
+[ ] - (m)Implement Trie (Prefix Tree)
+[ ] - (m)Design Add and Search Words Data Structure
+[ ] - (h)Word Search II
+
+Backtracking
+[ ] - (m)Letter Combinations of a Phone Number
+[ ] - (m)Combinations
+[ ] - (m)Permutations
+[ ] - (m)Combination Sum
+[ ] - (h)N-Queens II
+[ ] - (m)Generate Parentheses
+[ ] - (m)Word Search
+
+Divide & Conquer
+[ ] - (e)Convert Sorted Array to Binary Search Tree
+[ ] - (m)Sort List
+[ ] - (m)Construct Quad Tree
+[ ] - (h)Merge k Sorted Lists
+
+Kadane's Algorithm
+[ ] - (m)Maximum Subarray
+[ ] - (m)Maximum Sum Circular Subarray
+
+Binary Search
+[ ] - (e)Search Insert Position
+[ ] - (m)Search a 2D Matrix
+[ ] - (m)Find Peak Element
+[ ] - (m)Search in Rotated Sorted Array
+[ ] - (m)Find First and Last Position of Element in Sorted Array
+[ ] - (m)Find Minimum in Rotated Sorted Array
+[ ] - (h)Median of Two Sorted Arrays
+
+Heap
+[ ] - (m)Kth Largest Element in an Array
+[ ] - (h)IPO
+[ ] - (m)Find K Pairs with Smallest Sums
+[ ] - (h)Find Median from Data Stream
+
+Bit Manipulation
+[ ] - (e)Add Binary
+[ ] - (e)Reverse Bits
+[ ] - (e)Number of 1 Bits
+[ ] - (e)Single Number
+[ ] - (m)Single Number II
+[ ] - (m)Bitwise AND of Numbers Range
+
+Math
+[ ] - (e)Palindrome Number
+[ ] - (e)Plus One
+[ ] - (m)Factorial Trailing Zeroes
+[ ] - (e)Sqrt(x)
+[ ] - (m)Pow(x, n)
+[ ] - (h)Max Points on a Line
+
+1D DP
+[ ] - (e)Climbing Stairs
+[ ] - (m)House Robber
+[ ] - (m)Word Break
+[ ] - (m)Coin Change
+[ ] - (m)Longest Increasing Subsequence
+
+Multidimensional DP
+[ ] - (m)Triangle
+[ ] - (m)Minimum Path Sum
+[ ] - (m)Unique Paths II
+[ ] - (m)Longest Palindromic Substring
+[ ] - (m)Interleaving String
+[ ] - (m)Edit Distance
+[ ] - (mh)Best Time to Buy and Sell Stock III
+[ ] - (h)Best Time to Buy and Sell Stock IV
+[ ] - (m)Maximal Square
