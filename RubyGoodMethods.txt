@@ -1,0 +1,40 @@
+===================
+Ruby Good Methods
+-------------------
+
+Index
+
+1. Loops
+2. Delete from Array
+
+
+---------
+1.Loops 
+---------
+  Loop	Use	Example
+ -----
+• each	Iterate over every element (most common)	`arr.each {
+• each_with_index	Iterate with index	`arr.each_with_index {
+• map	Transform elements, returns new array	`arr.map {
+• select	Filter elements	`arr.select {
+• reject	Remove matching elements	`arr.reject {
+• times	Repeat N times	`5.times {
+• upto	Count up	`1.upto(5) {
+• downto	Count down	`5.downto(1) {
+• step	Count by increments	`(0).step(10, 2) {
+• while	Loop while condition is true	while x < 5
+• until	Loop until condition is true	until done
+• for	Traditional loop (less idiomatic)	for x in arr
+
+---------------------
+2.Delete from Array
+---------------------
+  Method	            Removes	                            Modifies original?
+ -------                -------                             ------------------
+• pop                   Last element	                    ✅ Yes
+• shift                 First element	                    ✅ Yes
+• delete(value)	        All occurrences of a value	        ✅ Yes
+• delete_at(index)      Element at an index	                ✅ Yes
+• reject!	            Elements matching a condition	    ✅ Yes
+• clear	                All elements	                    ✅ Yes
+• reject	            Elements matching a condition	    ❌ Returns a new array
