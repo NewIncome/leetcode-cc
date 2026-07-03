@@ -5,13 +5,13 @@ LeetCode List of Coding Challenges:
 ♦ doneWithRuby       ❌  didn't pass any, not finished, not understood     (e)easy
 • doneWithJS          /  passed >= half test cases || passedWithVideo      (m)medium
 ◙ doneWithTS          ✔  done                                              (h)hard
-
+∫ doneWithJava ☕
 
 ====================
 ---Array / String---
 --------------------
-[ ] - (e)Merge Sorted Array     (use: 2 pointers+ 1 index)
-[ ] - (e)Remove Element
+[✔] - (e)Merge Sorted Array [♦∫]   [use: 3 pointers(1 index)]   (..must understand well in steps..)
+[✔] - (e)Remove Element [∫♦]   [use: 2 pointers(1 index)]   (❌xx took llong, didn't understand instructions xx)
 [ ] - (e)Remove Duplicates from Sorted Array
 [ ] - (m)Remove Duplicates from Sorted Array II
 [ ] - (e)Majority Element
