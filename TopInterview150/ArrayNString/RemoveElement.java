@@ -58,8 +58,8 @@ public class RemoveElement {
         int k = 0;
 
         for (int i = 0; i < nums.length; i++) {
-            System.out.println("i: " + i + ", nums: " + Arrays.toString(nums) + ", k: " + k);
             if (nums[i] != val) {
+                System.out.println("i: " + i + ", nums: " + Arrays.toString(nums) + ", k: " + k);
                 nums[k++] = nums[i];
             }
         }
@@ -101,7 +101,7 @@ public class RemoveElement {
 
   -> Working Option:
   ○ We will use 2 pointers, one to loop through the array checking each elm against val
-  ○ the other one to allocate/move the elems diff than val
+  ○ the other one to allocate/move the elems diff than val to the beginning
   ○ same second pointer can be used to save count
     count of elements different than val, or the length of the array without val occurrences
  */
