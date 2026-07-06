@@ -24,7 +24,8 @@ Index
 • step	Count by increments	`(0).step(10, 2) {
 • while	Loop while condition is true	while x < 5
 • until	Loop until condition is true	until done
-• for	Traditional loop (less idiomatic)	for x in arr
+• for	Traditional loop (less idiomatic)	for x in arr  ,  for a in 1..5 do
+• loop  Needs internal break, no params
 
 ---------------------
 2.Delete from Array
