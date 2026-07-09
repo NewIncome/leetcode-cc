@@ -12,7 +12,7 @@ LeetCode List of Coding Challenges:
 --------------------
 [✔] - (e)Merge Sorted Array [♦∫]   [use: 3 pointers(1 index)]   (..must understand well in steps..)
 [✔] - (e)Remove Element [∫♦]   [use: 2 pointers(1 index)]   (❌xx took xlong, didn't understand instructions xx)
-[ ] - (e)Remove Duplicates from Sorted Array
+[✔] - (e)Remove Duplicates from Sorted Array [♦•]   [while|for]   (..rb:must improve loop limit understanding..)(..js:must improve understaing of this problem..)
 [ ] - (m)Remove Duplicates from Sorted Array II
 [ ] - (e)Majority Element
 [ ] - (m)Rotate Array
