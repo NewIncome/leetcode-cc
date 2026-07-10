@@ -10,91 +10,91 @@ LeetCode List of Coding Challenges:
 ====================
 ---Array / String---
 --------------------
-[✔] - (e)Merge Sorted Array [♦∫]   [use: 3 pointers(1 index)]   (..must understand well in steps..)
-[✔] - (e)Remove Element [∫♦]   [use: 2 pointers(1 index)]   (❌xx took xlong, didn't understand instructions xx)
-[✔] - (e)Remove Duplicates from Sorted Array [♦•]   [while|for]   (..rb:must improve loop limit understanding..)(..js:must improve understaing of this problem..)
-[ ] - (m)Remove Duplicates from Sorted Array II
-[ ] - (e)Majority Element
-[ ] - (m)Rotate Array
-[ ] - (e)Best Time to Buy and Sell Stock
-[ ] - (m)Best Time to Buy and Sell Stock II
-[ ] - (m)Jump Game
-[ ] - (m)Jump Game II
-[ ] - (m)H-Index
-[ ] - (m)Insert Delete GetRandom O(1)
-[ ] - (m)Product of Array Except Self
-[ ] - (m)Gas Station
-[ ] - (h)Candy
-[ ] - (h)Trapping Rain Water
-[ ] - (e)Roman to Integer
-[ ] - (m)Integer to Roman
-[ ] - (e)Length of Last Word
-[ ] - (e)Longest Common Prefix
-[ ] - (m)Reverse Words in a String
-[ ] - (m)Zigzag Conversion
-[ ] - (e)Find the Index of the First Occurrence in a String
-[ ] - (h)Text Justification
+ 88[✔] - (e)Merge Sorted Array [♦∫]   [use: 3 pointers(1 index)]   (..must understand well in steps..)
+ 27[✔] - (e)Remove Element [∫♦]   [use: 2 pointers(1 index)]   (❌xx took xlong, didn't understand instructions xx)
+ 26[✔] - (e)Remove Duplicates from Sorted Array [♦•]   [while|for]   (..rb:must improve loop limit understanding..)(..js:must improve understaing of this problem..)
+ 80[ ] - (m)Remove Duplicates from Sorted Array II
+169[ ] - (e)Majority Element
+189[ ] - (m)Rotate Array
+121[ ] - (e)Best Time to Buy and Sell Stock
+122[ ] - (m)Best Time to Buy and Sell Stock II
+ 55[ ] - (m)Jump Game
+ 45[ ] - (m)Jump Game II
+274[ ] - (m)H-Index
+380[ ] - (m)Insert Delete GetRandom O(1)
+238[ ] - (m)Product of Array Except Self
+134[ ] - (m)Gas Station
+135[ ] - (h)Candy
+ 42[ ] - (h)Trapping Rain Water
+ 13[ ] - (e)Roman to Integer
+ 12[ ] - (m)Integer to Roman
+ 58[ ] - (e)Length of Last Word
+ 14[ ] - (e)Longest Common Prefix
+151[ ] - (m)Reverse Words in a String
+  6[ ] - (m)Zigzag Conversion
+ 28[ ] - (e)Find the Index of the First Occurrence in a String
+ 68[ ] - (h)Text Justification
 
 ==================
 ---Two Pointers---
 ------------------
-[ ] - ()Valid Palindrome
-[ ] - (e)Is Subsequence
-[ ] - (m)Two Sum II - Input Array Is Sorted
-[ ] - (m)Container With Most Water
-[ ] - (m)3Sum
+125[ ] - ()Valid Palindrome
+392[ ] - (e)Is Subsequence
+167[ ] - (m)Two Sum II - Input Array Is Sorted
+11[ ] - (m)Container With Most Water
+15[ ] - (m)3Sum
 
 ====================
 ---Sliding Window---
 --------------------
-[ ] - (m)Minimum Size Subarray Sum
-[ ] - (m)Longest Substring Without Repeating Characters
-[ ] - (h)Substring with Concatenation of All Words
-[ ] - (h)Minimum Window Substring
+209[ ] - (m)Minimum Size Subarray Sum
+  3[ ] - (m)Longest Substring Without Repeating Characters
+ 30[ ] - (h)Substring with Concatenation of All Words
+ 76[ ] - (h)Minimum Window Substring
 
 Matrix
-[ ] - (m)Valid Sudoku
-[ ] - (m)Spiral Matrix
-[ ] - (m)Rotate Image
-[ ] - (m)Set Matrix Zeroes
-[ ] - (m)Game of Life
+ 36[ ] - (m)Valid Sudoku
+ 54[ ] - (m)Spiral Matrix
+ 48[ ] - (m)Rotate Image
+ 73[ ] - (m)Set Matrix Zeroes
+289[ ] - (m)Game of Life
 
 Hashmap
-[ ] - (e)Ransom Note
-[ ] - (e)Isomorphic Strings
-[ ] - (e)Word Pattern
-[ ] - (e)Valid Anagram
-[ ] - (m)Group Anagrams
-[ ] - (e)Two Sum
-[ ] - (e)Happy Number
-[ ] - (e)Contains Duplicate II
-[ ] - (m)Longest Consecutive Sequence
+383[ ] - (e)Ransom Note
+205[ ] - (e)Isomorphic Strings
+290[ ] - (e)Word Pattern
+242[ ] - (e)Valid Anagram
+ 49[ ] - (m)Group Anagrams
+  1[ ] - (e)Two Sum
+202[ ] - (e)Happy Number
+219[ ] - (e)Contains Duplicate II
+128[ ] - (m)Longest Consecutive Sequence
 
 Intervals
-[ ] - (e)Summary Ranges
-[ ] - (m)Merge Intervals
-[ ] - (m)Insert Interval
-[ ] - (m)Minimum Number of Arrows to Burst Balloons
+228[ ] - (e)Summary Ranges
+ 56[ ] - (m)Merge Intervals
+ 57[ ] - (m)Insert Interval
+452[ ] - (m)Minimum Number of Arrows to Burst Balloons
 
 Stack
-[ ] - (e)Valid Parentheses
-[ ] - (m)Simplify Path
-[ ] - (m)Min Stack
-[ ] - (m)Evaluate Reverse Polish Notation
-[ ] - (h)Basic Calculator
+ 20[ ] - (e)Valid Parentheses
+ 71[ ] - (m)Simplify Path
+155[ ] - (m)Min Stack
+150[ ] - (m)Evaluate Reverse Polish Notation
+224[ ] - (h)Basic Calculator
 
 Linked List
-[ ] - (e)Linked List Cycle
-[ ] - (m)Add Two Numbers
-[ ] - (e)Merge Two Sorted Lists
-[ ] - (m)Copy List with Random Pointer
-[ ] - (m)Reverse Linked List II
-[ ] - (h)Reverse Nodes in k-Group
-[ ] - (m)Remove Nth Node From End of List
-[ ] - (m)Remove Duplicates from Sorted List II
-[ ] - (m)Rotate List
-[ ] - (m)Partition List
-[ ] - (m)LRU Cache
+141[ ] - (e)Linked List Cycle
+  2[ ] - (m)Add Two Numbers
+ 21[ ] - (e)Merge Two Sorted Lists
+138[ ] - (m)Copy List with Random Pointer
+ 92[ ] - (m)Reverse Linked List II
+ 25[ ] - (h)Reverse Nodes in k-Group
+ 19[ ] - (m)Remove Nth Node From End of List
+ 82[ ] - (m)Remove Duplicates from Sorted List II
+ 61[ ] - (m)Rotate List
+ 86[ ] - (m)Partition List
+146[ ] - (m)LRU Cache
 
 Binary Tree General
 [ ] - (e)Maximum Depth of Binary Tree
