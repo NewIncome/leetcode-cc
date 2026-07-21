@@ -13,8 +13,8 @@ LeetCode List of Coding Challenges:
  88[✔] - (e)Merge Sorted Array [♦∫]   [use: 3 pointers(1 index)]   (..must understand well in steps..)
  27[✔] - (e)Remove Element [∫♦]   [use: 2 pointers(1 index)]   (❌xx took xlong, didn't understand instructions xx)
  26[✔] - (e)Remove Duplicates from Sorted Array [♦•]   [while|for]   (..rb:must improve loop limit understanding..)(..js:must improve understaing of this problem..)
- 80[ ] - (m)Remove Duplicates from Sorted Array II
-169[ ] - (e)Majority Element
+ 80[✔] - (m)Remove Duplicates from Sorted Array II [♦•∫]   [while|for]   (..must mem use of pointers for saving in same array, rem, dup, dup2..)
+169[✔] - (e)Majority Element [♦]   [POhash+for]
 189[ ] - (m)Rotate Array
 121[ ] - (e)Best Time to Buy and Sell Stock
 122[ ] - (m)Best Time to Buy and Sell Stock II
