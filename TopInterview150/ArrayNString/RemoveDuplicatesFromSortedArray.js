@@ -3,6 +3,7 @@
  * Return number of "unique" elements, counted elements
  */
 
+// Remove TheDups to right-side
 var removeDuplicates = function(nums) {
     let savePos = 1    // Pointer 2
 
@@ -16,6 +17,17 @@ var removeDuplicates = function(nums) {
     
     return savePos;
 };
+
+// Remove TheDups in-place
+var removeDuplicates = function(nums) {
+    let i = 1;
+    while(i <= nums.length) {
+        if(nums[i] == nums[i-1]) nums.splice(i,1);
+        else i++;
+    }
+    return nums.length;
+};
+
 
 // === ==---  Demo solution  ---== ===
 //let nums = [1,1,2,2,3];
