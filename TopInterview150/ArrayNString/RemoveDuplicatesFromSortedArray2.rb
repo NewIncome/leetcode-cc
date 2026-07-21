@@ -10,21 +10,46 @@
 # matter what you leave beyond the first k elements.
 # .
 # Return k after placing the final result in the first k slots of nums.
+# .
+# Constraints:
+#  ♦ 1 <= nums.length <= 3 * 104
+#  ♦ -104 <= nums[i] <= 104
+#  ♦ nums is sorted in non-decreasing order.
 
+# ----- Opt.1 - Removing elements in-place -----
+def remove_duplicates2_in_place(nums)
+  i = 2
+  while i <= nums
+    nums[i] == nums[i-2] ? nums.delete_at(i) : i += 1
+  end
+  nums.length
+end
+
+# ----- Opt.2 - Saving "unique" elements to left -----
 def remove_duplicates2(nums)
-    
+  k = 2
+
+  2.upto(nums.length-1) do |i|
+    if nums[i] != nums[k - 2]
+      nums[k] = nums[i] # save == move-left
+      k += 1
+    end
+  end
+
+  k
 end
 
 # Pseudocode
-# hints: sorted, ascending, remove 2nd duplicate in-place, order kept ==
-# # in ruby I CAN remove the elm from the arr
-# OPT#1 Ruby-Way
-# • vars: curr_elm to compare against, which will change when comparing != ,
-#         and double to check for 2nd rep (flag), counter of removed elms
-# • curr_elm init with arr[0], double init_at 0, counter init_at 0
-# • with while loop through array, start at pos 1, pos 0 will be 1st comparison
-#   • check if curr_elm == arr[i]
-#     • if yes, check if double == 0  # means encountered equals
-#     • yes, double = 1  # means it's first encounter
-#     • else, remove elm & reset double to 0 & counter +=1  # means 2nd encounter
-# • return counter
+# Opt.1 -removing in place-
+#   loop through array with while-loop
+#   with i, starting at 2, to not-check first 2 elms(1st elm + 1st dup)
+#     remove an element if nums(i) == nums(i-2)
+#     else increment i
+#   return the length of nums
+# Opt.2 -moving "uniques" to left-
+#   have a k-pointer var to keep track of the spacing of elements to move leftTo == save
+#   loop through each-elm-in-array
+#   with i, starting at 2 as-well-as k, to not-check first 2 elms(1st elm + 1st dup)
+#     nums[i] != nums[k-2] : swap an element to the left-side(with k) if it qualifies as different || "unique"
+#     and increment k
+#   return k
